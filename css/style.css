@@ -210,3 +210,76 @@
     line-height: 150%;
     color: #403F3D;
    }
+   /* Hero section end */
+
+   /* Slider section start */
+   .favorite-coffee {
+   margin: 0 auto;
+   max-width: 1440px;
+    max-height: 799px;
+   }
+   .wrapper-line {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+   }
+   .slider__title-text {
+    font-family: Inter;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 125%;
+    color: #403F3D;
+   }
+   .slider__title-text-italic {
+font-style: italic;
+    color: #B0907A;
+   }
+   .slider {
+    display: flex;
+    align-items: center;
+    width: min(100%, 1360px);
+  height: min(100vh, 799px);
+  justify-content: space-between;
+
+   }
+   .arrow {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+   }
+   #coffeeImage {
+    object-fit: contain;
+  filter: drop-shadow(0 12px 8px rgba(70, 45, 30, 0.25));
+   }
+   .coffeeTitle {
+   font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 125%;
+    color: #403F3D;
+    margin-top: 20px;
+    margin-bottom: 16px;
+   }
+   .slide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+   .coffeeDescription {
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 150%;
+    color: #403F3D;
+    margin-top: 0px;
+    margin-bottom: 16px;
+   }
+   .coffeePrice {
+font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 125%;
+    color: #403F3D;
+   }
