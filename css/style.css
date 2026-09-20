@@ -1,3 +1,4 @@
+@import url("./menu.css");
 /* inter-regular - latin */
 /* inter-regular - latin */
 @font-face {
@@ -197,12 +198,29 @@
    .hero {
     margin: 0 auto;
    }
-   .hero__button {
+   /* .hero__button {
     width: 200px;
     height: 64px;
     border-radius: 100px;
     background-color: #E1D4C9;
-   }
+   } */
+   .hero__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 200px;
+    height: 64px;
+    box-sizing: border-box;
+
+    border-radius: 100px;
+    background-color: #e1d4c9;
+
+    text-decoration: none;
+    cursor: pointer;
+
+    transition: background-color 0.3s ease;
+}
    .hero__offer-button-text {
     font-family: Inter;
     font-weight: 600;
@@ -470,4 +488,78 @@ margin: 100px 40px 40px 40px;
 .contacts {
     max-width: 1360px;
     max-height: 450px;
+    padding: 100px;
+    display: flex;
+    flex-direction: row;
+    background-color: #665F55;
+    border-radius: 40px;
+    gap: 100px;
+    align-items: center;
+
+}
+.contacts-title {
+    font-family: Inter;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 125%;
+    color: #E1D4C9;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.contacts-italic {
+    font-style: italic;
+    color: #B0907A;
+}
+.contacts__offer {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.social {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    border: 1px solid #C1B6AD;
+    background-color: #665F55;
+}
+.contacts-social {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+.contacts__info{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    max-width: 530px;
+max-height: 186px;
+align-items: flex-start;
+}
+.contacts__info-title{
+font-family: Inter;
+font-weight: 600;
+font-size: 24px;
+line-height: 125%;
+color: #E1D4C9;
+margin-top: 0px;
+margin-bottom: 0px;
+}
+.contacts__item {
+    font-family: Inter;
+font-weight: 600;
+font-size: 16px;
+line-height: 150%;
+color: #E1D4C9;
+list-style: none;
+}
+.phone-link {
+    text-decoration: none;
+    color: #E1D4C9;
+}
+.contacts__list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin: 0;
+    padding: 0;
 }
