@@ -291,7 +291,6 @@ font-family: Inter;
     margin: 0 auto;
     max-width: 1440px;
     max-height: 1325px;
-    border: 2px solid red;
    }
    .wrapper-about {
     display: flex;
@@ -359,4 +358,116 @@ font-family: Inter;
 .about__four-img {
     height: 590px;
     width: 660px;
+}
+
+.mobile__app {
+    max-width: 1360px;
+    max-height: 630px;
+    margin: 0 auto;
+}
+.wrapper-mobile {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    gap: 100px;
+}
+.mobile__model {
+    object-fit: cover;
+}
+.mobile__container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.mobile__title {
+    font-family: Inter;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 125%;
+    color: #403F3D;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.mobile__title-italic {
+    font-style: italic;
+    color: #B0907A;
+}
+.mobile__text {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    color: #403F3D;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.mobile__buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 20px
+}
+.store-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+
+    width: 200px;
+    height: 64px;
+    padding: 20px 12px;
+
+    box-sizing: border-box;
+    border: 1px solid #70675f;
+    border-radius: 40px;
+
+    background-color: transparent;
+    color: #403b37;
+    text-decoration: none;
+
+    transition: 0.3s ease;
+}
+
+.store-button:hover {
+    background-color: #70675f;
+    color: #ffffff;
+}
+
+.store-button__icon {
+    object-fit: contain;
+}
+
+.button__content {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.button__available {
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 140%;
+    color: #403F3D;
+}
+
+.button__name {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 150%;
+    color: #403F3D;
+}
+
+
+.footer {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.wrapper-footer {
+margin: 100px 40px 40px 40px;
+}
+.contacts {
+    max-width: 1360px;
+    max-height: 450px;
 }
