@@ -1,0 +1,88 @@
+body:has(#dark:checked) {
+    --body-background: #292826;
+    --body-color: #E1D4C9;
+  }
+  body:has(#dark:checked) .header__link,
+  body:has(#dark:checked) .header__coffe-link {
+    color: #e1d4c9;
+  }
+  body:has(#dark:checked) .header__coffe-link::after {
+    background-color: #e1d4c9; 
+}
+  body:has(#dark:checked) .header__link::after {
+    background-color: #e1d4c9;
+  }
+  body:has(#dark:checked) .slider__title-text{
+    color: #e1d4c9;
+  }
+  body:has(#dark:checked) .coffeeTitle{
+    color: #e1d4c9;
+  }
+  body:has(#dark:checked) .coffeeDescription{
+    color: #e1d4c9;
+  }
+  body:has(#dark:checked) .coffeePrice{
+    color: #e1d4c9;
+  }
+  body:has(#dark:checked) .slider__indicator--active{
+    background-color: #C1B6AD;
+  }
+  body:has(#dark:checked) .indicator{
+    background-color: #665F55;
+  }
+  body:has(#dark:checked) .about__text{
+    color: #e1d4c9;
+  }
+  body:has(#dark:checked) .hero__button{
+    background-color: #292826;
+  }
+  body:has(#dark:checked) .hero__offer-button-text{
+    color: #e1d4c9;
+  }
+  body:has(#dark:checked) .mobile__title{
+    color: #e1d4c9;
+  }
+  body:has(#dark:checked)  .mobile__text{
+    color: #e1d4c9;
+  }
+  body:has(#dark:checked)  .contacts{
+    background-color: #403F3D;
+  }
+  body:has(#dark:checked) .social{
+    background-color: #403F3D;
+  }
+  body:has(#dark:checked) .store-button {
+    color: #E1D4C9;
+  }
+  body:has(#dark:checked) .market-button__icon  {
+    filter: brightness(0) saturate(100%)
+    invert(87%)
+    sepia(10%)
+    saturate(450%)
+    hue-rotate(345deg)
+    brightness(94%)
+    contrast(88%);
+  }
+  body:has(#dark:checked) .store-button__icon  {
+    filter: brightness(0) saturate(100%)
+    invert(87%)
+    sepia(10%)
+    saturate(450%)
+    hue-rotate(345deg)
+    brightness(94%)
+    contrast(88%);
+  }
+  body:has(#dark:checked) .offer__title  {
+    color: #E1D4C9;
+  }
+  body:has(#dark:checked) .card__title {
+    color: #E1D4C9;
+  }
+  body:has(#dark:checked) .card__text {
+    color: #E1D4C9;
+  }
+  body:has(#dark:checked) .card__price {
+    color: #E1D4C9;
+  }
+
+ 

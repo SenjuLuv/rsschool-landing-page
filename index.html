@@ -19,16 +19,16 @@
                 <nav class="header__navlog">
                       <ul class="header__list">
                         <li class="header__item">
-                            <a href="#!" class="header__link">Favorite coffee</a>
+                            <a href="#favorite" class="header__link">Favorite coffee</a>
                         </li>
                         <li class="header__item">
-                            <a href="#!" class="header__link">About</a>
+                            <a href="#about" class="header__link">About</a>
                         </li>
                         <li class="header__item">
-                            <a href="#!" class="header__link">Mobile app</a>
+                            <a href="#mobile" class="header__link">Mobile app</a>
                         </li>
                         <li class="header__item">
-                            <a href="#!" class="header__link">Contact us</a>
+                            <a href="#contact" class="header__link">Contact us</a>
                         </li>
                       </ul>  
                 </nav>
@@ -59,11 +59,11 @@
 <p class="hero__description-text">With its inviting atmosphere and delicious coffee options, the Coffee<br> House Resource is a popular destination for coffee lovers and those<br> seeking a warm and inviting space to enjoy their favorite beverage.</p>
                 </div>
                 <div class="hero__offer-button">
-<a class="hero__button" href="menu.html"><P class="hero__offer-button-text">Menu</P></a>
+<a class="hero__button" href="menu.html"><P class="hero__offer-button-text">Menu </P> <img src="./img/svg/coffee-cup.svg" alt="COFFE CUP" class="main__coffe-pic"></a>
                 </div>
             </div>
         </section>
-        <section class="favorite-coffee">
+        <section class="favorite-coffee" id="favorite">
             <div class="wrapper-line">
                 <div class="slider__title">
 <h2 class="slider__title-text">Choose your <span class="slider__title-text-italic">favorite </span>coffee</h2>
@@ -77,12 +77,18 @@
       <p class="coffeeDescription">
         This new drink takes an espresso and mixes it with brown<br> sugar and cinnamon before being topped with oat milk.</p>
       <strong class="coffeePrice">$5.50</strong>
+      <div class="slider__indicators">
+        <button class="slider__indicator slider__indicator--active"></button>
+        <button class="slider__indicator indicator"></button>
+        <button class="slider__indicator indicator"></button>
+      </div>
     </div>
     <button class="arrow arrow-right" aria-label="Следующий">→</button>
+    
             </div>
             </div>
         </section>
-        <section class="about">
+        <section class="about" id="about">
            <div class="wrapper-about">
             <h3 class="about__text">Resource is <span class="about__text-italic">the perfect and cozy place</span> where<br> you can enjoy a variety of hot beverages, relax,<br> catch up with friends, or get some work done.</h3>
             <div class="about__container">
@@ -90,13 +96,13 @@
                     <img
                         src="./img/jpg/about-1.jpg"
                         alt="first foto"
-                        class="about__first-img"
+                        class="about-img about__first-img"
                     >
             
                     <img
                         src="./img/jpg/about-2.jpg"
                         alt="three foto"
-                        class="about__three-img"
+                        class="about-img about__three-img"
                     >
                 </div>
             
@@ -104,20 +110,20 @@
                     <img
                         src="./img/jpg/about-3.jpg"
                         alt="second foto"
-                        class="about__second-img"
+                        class="about-img about__second-img"
                     >
             
                     <img
                         src="./img/jpg/about-4.jpg"
                         alt="four foto"
-                        class="about__four-img"
+                        class="about-img about__four-img"
                     >
                 </div>
             </div>
                 </div>
            </div>
         </section>
-<section class="mobile__app">
+<section class="mobile__app" id="mobile">
     <div class="wrapper-mobile">
         <div class="mobile__model">
             <img src="./img/png/mobile-screens.png" alt="mobile screens" class="mobile__model-img">
@@ -156,15 +162,15 @@
 </section>
        </div>
     </main>
-    <footer class="footer">
+    <footer class="footer" id="contact">
        <div class="wrapper-footer">
         <div class="contacts">
 <div class="contacts__offer">
     <h3 class="contacts-title">Sip, Savor, Smile.<br> <span class="contacts-italic">It’s coffee time!</span></h3>
     <div class="contacts-social">
-        <button class="social social-first-" aria-label="Предыдущий"><img src="./img/png/twitter.png" alt="twitter" class="twitter"></button>
-        <button class="social social-second-" aria-label="Предыдущий"><img src="./img/png/instagram.png" alt="instagram" class="instagram"></button>
-        <button class="social social-three-" aria-label="Предыдущий"><img src="./img/png/facebook.png" alt="facebook" class="facebook"></button>
+        <button class="social social-first-" aria-label="Твиттер"><img src="./img/png/twitter.png" alt="twitter" class="twitter"></button>
+        <button class="social social-second-" aria-label="Инстаграм"><img src="./img/png/instagram.png" alt="instagram" class="instagram"></button>
+        <button class="social social-three-" aria-label="Фейсбук"><img src="./img/png/facebook.png" alt="facebook" class="facebook"></button>
     </div>
 </div>
 <div class="contacts__info">
@@ -172,7 +178,7 @@
     <ul class="contacts__list">
         <li class="contacts__item">
             <span class="contacts__icon"><img src="./img/png/pin-alt.png" alt="pin-alt" class="pinalt"></span>
-            <span>8558 Green Rd., LA</span>
+             <a href="#!"  class="maps-link">8558 Green Rd., LA</a>
         </li>
 
         <li class="contacts__item">

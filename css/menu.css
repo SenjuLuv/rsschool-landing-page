@@ -42,7 +42,7 @@ margin-bottom: 0px;
   border-radius: 24px;
   background: transparent;
 
-  color: #403b37;
+  color: #665F55;
   font-family: Inter, sans-serif;
   font-size: 16px;
   font-weight: 600;
@@ -61,7 +61,7 @@ margin-bottom: 0px;
   height: 30px;
 
   border-radius: 50%;
-  background: #ded5cc;
+  background: #E1D4C9;
 
   flex-shrink: 0;
 }
@@ -81,23 +81,23 @@ margin-bottom: 0px;
 
 /* Активная кнопка */
 .category-button.active {
-  border-color: #6d6861;
-  background: #6d6861;
-  color: #ffffff;
+    background: #665F55;
+    border-color: #817a72;
+    color: #E1D4C9;
 }
 
 .category-button.active .icon-circle {
-  background: #e5ddd5;
+  background: #E1D4C9;
 }
 
 /* Наведение */
-.category-button:hover {
-  background: #817a72;
+.disable:hover {
+  background: #665F55;
   border-color: #817a72;
-  color: #ffffff;
+  color: #E1D4C9;
 }
 
-.category-button:hover .icon-circle {
+.disable:hover .icon-circle {
   background: #e5ddd5;
 }
 
@@ -111,7 +111,14 @@ margin-bottom: 0px;
     max-height: 506px;
      border: 1px solid #C1B6AD;
     border-radius: 40px;
+    transition:
+    border-color 0.3s ease,
+    box-shadow 0.3s ease,
+    transform 0.3s ease;
 }
+.card:hover {
+    border-color: #665F55;
+  }
 .card-img {
     width: 310px;
     height: 310px;
@@ -121,11 +128,17 @@ margin-bottom: 0px;
     max-width: 1360px;
     max-height: 1052px;
     margin: 0 auto;
+    display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
 }
 .card-content {
     display: flex;
     flex-direction: column;
     gap: 12px;
+    max-width: 310px;
+    max-height: 196px;
+    padding: 0 20px 20px 20px;
 }
 .card__title {
 font-family: Inter;
@@ -155,3 +168,13 @@ color: #403F3D;
 margin-top: 0px;
 margin-bottom: 0px;
 }
+/* .card__content-text {
+    max-width: 270px;
+    max-height: 90px;
+} */
+ .price {
+    margin-top: 20px;
+ }
+ .pricemini {
+    margin-top: 45px;
+ }
