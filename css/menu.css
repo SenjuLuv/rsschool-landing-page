@@ -1,0 +1,157 @@
+.main-wrapper {
+    margin: 0 40px 0 40px ;
+}
+.offer {
+    display: flex;
+    max-width: 1360px;
+    max-height: 236px;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+    gap: 40px;
+} 
+.offer__title {
+     font-family: Inter;
+font-weight: 600;
+font-size: 60px;
+line-height: 125%;
+color: #403F3D;
+margin-top: 0px;
+margin-bottom: 0px;
+}
+.offer__title-italic {
+    font-style: italic;
+    color: #B0907A;
+}
+.category-buttons {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  max-width: 361px;
+}
+
+.category-button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  height: 46px;
+  padding: 8px 16px 8px 8px;
+
+  border: 1px solid #c9beb4;
+  border-radius: 24px;
+  background: transparent;
+
+  color: #403b37;
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+/* Круг вокруг иконки */
+.icon-circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 30px;
+  height: 30px;
+
+  border-radius: 50%;
+  background: #ded5cc;
+
+  flex-shrink: 0;
+}
+
+/* Сама иконка */
+.category-button .icon {
+  display: block;
+
+  width: 16px;
+  height: 24px;
+
+  padding: 0;
+  object-fit: contain;
+
+  flex-shrink: 0;
+}
+
+/* Активная кнопка */
+.category-button.active {
+  border-color: #6d6861;
+  background: #6d6861;
+  color: #ffffff;
+}
+
+.category-button.active .icon-circle {
+  background: #e5ddd5;
+}
+
+/* Наведение */
+.category-button:hover {
+  background: #817a72;
+  border-color: #817a72;
+  color: #ffffff;
+}
+
+.category-button:hover .icon-circle {
+  background: #e5ddd5;
+}
+
+.grid {
+    margin: 40px 40px 100px 40px;
+}
+
+
+.card {
+    max-width: 310px;
+    max-height: 506px;
+     border: 1px solid #C1B6AD;
+    border-radius: 40px;
+}
+.card-img {
+    width: 310px;
+    height: 310px;
+     border-radius: 40px;
+}
+.wrapper-grid {
+    max-width: 1360px;
+    max-height: 1052px;
+    margin: 0 auto;
+}
+.card-content {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.card__title {
+font-family: Inter;
+font-weight: 600;
+font-size: 24px;
+line-height: 125%;
+color: #403F3D;
+margin-bottom: 12px;
+}
+.card__text {
+font-family: Inter;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+line-height: 150%;
+color: #403F3D;
+margin-top: 0px;
+margin-bottom: 0px;
+}
+.card__price {
+font-family: Inter;
+font-weight: 600;
+font-style: Semi Bold;
+font-size: 24px;
+line-height: 125%;
+color: #403F3D;
+margin-top: 0px;
+margin-bottom: 0px;
+}
